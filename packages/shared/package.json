@@ -1,0 +1,22 @@
+{
+  "name": "@fitness-tracker/shared",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "eli <esemeryuk@gmal.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/shared.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/shared.test.js"
+  },
+  "dependencies": {
+    "@fitness-tracker/shared": "file:../shared"
+  }
+}
